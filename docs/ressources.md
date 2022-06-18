@@ -1,11 +1,16 @@
-# tests_PyScript
-Dépôt pour tester PyScript
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLpdmBGJ6ELUJ2ujkBcMQ3n0D2J2exAVTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Quelques liens :
 
 - https://github.com/pyscript/pyscript
 - https://pyscript.net/examples/
 - https://engineering.anaconda.com/2022/04/welcome-pyscript.html
+- https://community.anaconda.cloud/c/tech-topics/pyscript/41
+
+***
+
 - https://www.lemondeinformatique.fr/actualites/lire-avec-pyscript-le-code-python-s-execute-dans-un-navigateur-86652.html
 - https://anaconda.cloud/pyscript-python-in-the-browser
 
