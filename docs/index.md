@@ -2,16 +2,28 @@
 template: pyscript.html
 ---
 
-## 
+# Memo pour PyScript
 
+![kesako PyScript](https://www.jhanley.com/wp-content/uploads/2022/05/pyscript-what-is-it.jpg){.center}
+
+## Préparation
+
+### Page HTML
+
+Il faut inclure dans le `<head>`:
 ```html
 <head>
   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 </head>
 ```
+### Page MkDocs MarkDown
 
-##  `<py-script>`
+Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.gitlab.io/mkhack3rs/pyscript/).
+
+## Inventaire de balises
+
+###  `<py-script>`
 
 === "Le code :"
     ```html
@@ -55,7 +67,7 @@ template: pyscript.html
 ***
 
 
-## `<py-repl>`
+### `<py-repl>`
 
 === "Le code :"
     ```html
@@ -211,7 +223,7 @@ template: pyscript.html
 
 ***
 
-## `<py-env>`
+### `<py-env>`
 
 === "Le code :"
     ```html
@@ -239,16 +251,49 @@ template: pyscript.html
     s = f"π vaut approximativement {pi:.4f}"
     print(s)
     </py-script>
+=== "Avec dans le fichier `mes_fonctions.py` :"
+    ```python
+    def calcul_pi(n):
+        pi = 2
+        for i in range(1,n):
+            pi *= 4 * i ** 2 / (4 * i ** 2 - 1)
+        return pi
+    ```
 
 
-## `<py-inputbox>`
+### `<py-title>`
 
-## `<py-box>`
+=== "Le code :"
+    ```html
+    <py-title>Un titre centré</py-title>
+    ```
+=== "Produit :"
+    <py-title>Un titre centré</py-title>
 
-## `<py-button>`
 
-## `<py-title>`
+<py-title>Inventaire à finaliser...</py-title>
 
-## `<py-config>`
+### `<py-inputbox>`
+
+  <!-- <py-inputbox>
+def on_keypress(event):
+    print(event)
+  </py-inputbox> -->
+
+### `<py-box>`
+
+
+
+
+### `<py-button>`
+
+  <!-- <py-button label="Click me" styles="btn big">
+def on_click(event):
+    print(event)
+  </py-button> -->
+
+
+
+### `<py-config>`
 
 

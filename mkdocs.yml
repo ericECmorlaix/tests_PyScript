@@ -13,7 +13,7 @@ edit_uri: edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` 
 
 ### Configuration de métadonnées
 # Métadonnées de description <300 caratères, et d'auteur pour toutes les pages du site 
-site_description: Exemple de site de base pour MkDocs avec le thème Material et PyScript à personaliser
+site_description: Exemple de site MkDocs avec le thème Material et intégrant PyScript
 site_author: "Eric MADEC"
 
 ### Configuration de la stucture de navigation
@@ -21,11 +21,12 @@ site_author: "Eric MADEC"
 docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
-  - La page d'accueil : index.md
+  - Accueil : index.md
   - PyScript M : pyscript.md
   - PyScript H : pyscript.html
   - Canvas M : pyscript-canvas.md
   - Canvas H : pyscript-canvas.html
+  - Horloge H : pyscript-horloge.html
   - Ressources: ressources.md
   
   # Référencer vos autres pages ci-dessus...
