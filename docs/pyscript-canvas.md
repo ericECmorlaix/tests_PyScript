@@ -5,7 +5,7 @@ template: pyscript.html
 > Pour modifier le dessin, exécuter successivement les instructions des cellules REPL ci-dessous avec la combinaison de touches ++"⇑ Maj."+"Entrée ↵"++ ...
 
 <div>
-  <div id="status">Chargement de la page ...</div>
+  <div id="status">Chargement de la page, ..., rafraichir (F5) si nécessaire, ...</div>
   <br>
 
   
