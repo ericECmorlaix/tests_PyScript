@@ -29,6 +29,27 @@
 - https://www.freecodecamp.org/news/pyscript-python-front-end-framework/
 
 
+- https://pythonprogramming.altervista.org/how-to-upload-an-image-with-pyscript/
+- https://pythonprogramming.altervista.org/pyscript-using-sqlite-with-pyscript/
+- https://pythonprogramming.altervista.org/run-python-in-html-pyscript/
+
+- https://www.jhanley.com/pyscript-graphics/
+
+- https://jeff.glass/post/pyscript-intro/
+
+- https://morioh.com/p/34bee218c96b
+
+- https://morioh.com/p/d9d3c73d3e22
+
+
+
+## PyGame :
+
+- https://www.editions-ellipses.fr/accueil/10739-21215-apprendre-la-programmation-par-le-jeu-decouvrir-pygame-avec-de-nouveaux-jeux-en-python-9782340042100.html#description-scroll-tricks
+
+- https://github.com/formazione
+
+
 
 ## Quelques notes :
 

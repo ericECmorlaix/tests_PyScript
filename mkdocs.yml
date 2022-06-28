@@ -24,6 +24,8 @@ nav:
   - La page d'accueil : index.md
   - PyScript M : pyscript.md
   - PyScript H : pyscript.html
+  - Canvas M : pyscript-canvas.md
+  - Canvas H : pyscript-canvas.html
   - Ressources: ressources.md
   
   # Référencer vos autres pages ci-dessus...
