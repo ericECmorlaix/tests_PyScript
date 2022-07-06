@@ -10,7 +10,7 @@ template: pyscript.html
 
 ### Page HTML
 
-Il faut inclure dans le `<head>`:
+Il faut inclure dans le `<head>` deux balises :
 ```html
 <head>
   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
