@@ -4,7 +4,9 @@ template: pyscript.html
 
 # Memo pour PyScript
 
-![kesako PyScript](https://www.jhanley.com/wp-content/uploads/2022/05/pyscript-what-is-it.jpg){.center}
+![kesako PyScript](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF__EJSdwxNWURtTHkuST0NcYnwnSYesBzc0W6lXrXKieKx3Glu9lW8zDgGYaf-i2Y8pI&usqp=CAU){.center}
+
+<!-- (https://www.jhanley.com/wp-content/uploads/2022/05/pyscript-what-is-it.jpg) -->
 
 ## Préparation
 
@@ -13,8 +15,8 @@ template: pyscript.html
 Il faut inclure dans le `<head>` deux balises :
 ```html
 <head>
-  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 ```
 ### Page MkDocs MarkDown
