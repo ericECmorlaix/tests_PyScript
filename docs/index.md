@@ -30,12 +30,12 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
 === "Le code :"
     ```html
     <py-script>
-    "Demat d'an holl !"
+    display("Demat d'an holl !")
     </py-script>
     ```
 === "Produit :"
     <py-script>
-    "Demat d'an holl !"
+    display("Demat d'an holl !")
     </py-script>
 
 ***
@@ -48,7 +48,7 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
     <py-script src="./pyscripts/toto.py"></py-script>
 === "Avec dans le fichier `toto.py` :"
     ```python
-    print('Toto est dans la place !')
+    display('Toto est dans la place !')
     ```
 ***
 
@@ -175,7 +175,7 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
     </py-repl>
     <py-repl>
         # test 1 : doit renvoyer 2
-    indice_min([2, 4, 1, 1]) == 2
+    indice_min([2, 4, 1, 1])
     </py-repl>
     <py-repl>
         # test 2 : doit renyoyer True
@@ -190,7 +190,7 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
     indice_min(...)
     </py-repl>
     ```
-=== "Produit un bug, `>` devient `&gt;` :"
+=== "Ne produit plus de bug"
     <py-repl>
     def indice_min(nombres : list) -> int :
         indice = 0
@@ -203,7 +203,7 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
     </py-repl>
     <py-repl>
         # test 1 : doit renvoyer 2
-    indice_min([2, 4, 1, 1]) == 2
+    indice_min([2, 4, 1, 1])
     </py-repl>
     <py-repl>
         # test 2 : doit renyoyer True
@@ -217,7 +217,7 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
         # Réaliser vos propres tests :
     indice_min(...)
     </py-repl>        
-=== "Bientôt résolue :"
+=== "Bug maintenant résolu :"
 
     [fix: < and > are parsed with HTML escape symbols](https://github.com/pyscript/pyscript/pull/481){target=_blank)}
     
@@ -248,10 +248,10 @@ Se référer [au résumé de configuration de Rodrigo SCHWENCKE](https://eskool.
     </py-env>
     <py-script>  
     from mes_fonctions import calcul_pi
-    print("Calculons π :")      
+    display("Calculons π :")      
     pi = calcul_pi(100000)
     s = f"π vaut approximativement {pi:.4f}"
-    print(s)
+    display(s)
     </py-script>
 === "Avec dans le fichier `mes_fonctions.py` :"
     ```python

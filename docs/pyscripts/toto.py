@@ -1,1 +1,1 @@
-print('Toto est dans la place !')
+display('Toto est dans la place !')
